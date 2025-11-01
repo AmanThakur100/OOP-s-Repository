@@ -105,3 +105,8 @@ class C:public A,public B{
             cout << "\nB's x is " << B::x;  //20
         }
 };
+int main(){
+    C c;
+    c.fun();
+    return 0;
+}
