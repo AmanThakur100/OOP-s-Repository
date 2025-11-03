@@ -16,6 +16,15 @@ class Testing{
             return test;
         }
 
+        Testing operator++(int){
+            Testing test;
+            test.a = a;
+            test.b = b;
+
+            a++, b++;
+            return test;
+        }
+
         void display(){
             cout << a << endl;
             cout << b << endl;
@@ -29,5 +38,9 @@ int main(){
 
     t3 = ++t1;      // unary operator overloading for pre ++ increament operator
     t3.display();
+
+    t3 = t1++;      // unary operator overloading for post ++ increament operator
+    t3.display();
+    
     return 0;
 }
