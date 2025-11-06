@@ -1,4 +1,4 @@
-//ifstream and ofstream {class}
+//ifstream and ofstream {class} inside fstream
 
 #include <iostream>
 #include <fstream>

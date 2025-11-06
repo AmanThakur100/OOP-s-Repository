@@ -2,6 +2,8 @@
 #include<string>
 #include<istream>
 #include<sstream>
+#include <iostream>
+#include <iomanip>
 using namespace std;
 
 //IOS class
